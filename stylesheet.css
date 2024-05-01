@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.logo-img {
+    width: 40px;
+    height: auto;
+}
+
+.h-left .h-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top-left .top-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.bio {
+    font-size: 10px;
+}
